@@ -1,23 +1,43 @@
-h1 {
-  color: yellow;
+.jumbotron h1 {
+  color: rgb(63, 143, 89);
 }
 
-nav > a {
-  background-color: black;
+nav.nav > a {
+  color: blueviolet !important;
 }
 
 .lead > a.text-white {
   color: coral !important;
 }
+/* ohter option:
 
-.row > .col:first-child {
-  background-color: cornflowerblue;
+.jumbotron .col-md-6 p:last-of-type a{
+    color: coral !important;
+}
+*/
+main .blog-main > h3 + .blog-post {
+  background-color: chartreuse !important;
 }
 
-.container:nth-child(2) .blog-post:nth-child(4) {
-  background-color: coral;
+nav.nav > a:nth-child(2n) {
+  color: red !important;
 }
 
-.font-italic > h4 > ol {
-  background-color: coral;
+main .blog-main .blog-post:last-of-type {
+  background-color: coral !important;
+}
+
+aside div:nth-child(2) ol > li > a {
+  color: coral;
+}
+
+main .blog-main .blog-post:nth-child(3) > h2 + p > a {
+  color: aquamarine !important;
+}
+
+p:last-of-type > a {
+  color: coral !important;
+}
+footer {
+  background-color: darkgreen !important;
 }
