@@ -1,0 +1,19 @@
+h1 {
+  color: yellow;
+}
+
+nav > a {
+  background-color: black;
+}
+
+.lead > a.text-white {
+  color: coral !important;
+}
+
+.row > .col:first-child {
+  background-color: cornflowerblue;
+}
+
+.container:nth-child(2) .blog-post:nth-child(4) {
+  background-color: coral;
+}
